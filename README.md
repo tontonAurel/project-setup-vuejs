@@ -1,3 +1,3 @@
 # project-setup-vuejs
  
- Vuejs project setup
+ Vuejs project setup with docker
