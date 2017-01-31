@@ -1,0 +1,12 @@
+version: '2'
+services:
+  web:
+    build:
+      context: ./
+      dockerfile: /config/docker/web/Dockerfile
+    environment:
+      - VIRTUAL_HOST:admin.du-jour.dev
+    ports:
+      - "8090:80"
+    volumes:
+       - ./:/scripts
